@@ -28,12 +28,12 @@ The project includes a Python script `gen_dag.py` which dynamically generates a 
 - `dag_graph.dot`: A DOT file representing the graph structure.
 - `dag_dataset.txt`: Corresponds to the graph dataset as per the challenge specifications.
 
-Initially, the challenge requested a binary tree DAG with a maximum of two parents per node. To add complexity and versatility, this was expanded to allow up to four parents per node.
+**Initially, the challenge requested a binary tree DAG with a maximum of two parents per node. To add complexity and versatility, this was expanded to allow up to four parents per node.**
 
 ### Usage
 To generate a DAG with a specific number of nodes:
 ```bash
-python gen_dag.py <NUMBER_NODES>
+python gen_dag.py <NUMBER_OF_NODES>
 ```
 
 ### Visualizing the DAG
