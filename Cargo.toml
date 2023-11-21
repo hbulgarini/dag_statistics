@@ -1,0 +1,12 @@
+[package]
+name = "dag_statistics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+rayon = "1.5"
+clap = "2.33"
+dashmap = "5.5.3"
